@@ -23,7 +23,8 @@ body {
   .main-header__link {
     display: inline-block;
     margin-right: 10px;
-    height: 40px; }
+    height: 40px; 
+    z-index: 1}
 
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
   color: #274287; }
@@ -37,9 +38,11 @@ body {
     color: #274287; }
 
 .book-header {
-  top: 5px;
+  top: 0;
   background-color: #274287;
-  color: #fff; }
+  color: #fff;
+  position: relative;
+  z-index: 2;}
   .book-header .btn {
     color: #fff;
     transition: color .3s; }
